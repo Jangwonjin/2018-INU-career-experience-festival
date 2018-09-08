@@ -10,10 +10,10 @@
 ### 실습
 1. 얼굴 인식
 실시간으로 촬영중인 영상속에서 얼굴을 인식한다.
-'''bash
+```bash
 pi@raspberrypi:~ $ cd INUfestival
 pi@raspberrypi:~ $ python3 face_detection
-'''
+```
 
 
 
