@@ -22,6 +22,7 @@ pi@raspberrypi:~/INUfestival $ python3 face_detection.py
 3. **사용자의 얼굴 데이터 수집**<br>
    * 폴더 생성(User1,User2,User3 ...)
    ```bash
+    pi@raspberrypi:~/INUfestival $ mkdir dataset (dataset 폴더생성)
     pi@raspberrypi:~/INUfestival $ cd dataset
     pi@raspberrypi:~/INUfestival/dataset $ mkdir User*
     ```
