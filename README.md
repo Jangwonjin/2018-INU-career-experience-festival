@@ -12,7 +12,7 @@
    실시간으로 촬영중인 영상속에서 얼굴을 인식한다.
 ```bash
 pi@raspberrypi:~ $ cd INUfestival
-pi@raspberrypi:~ $ python3 face_detection
+pi@raspberrypi:~ $ python3 face_detection.py
 ```
 2. **사용자의 얼굴 데이터 수집**<br>
    사용자의 얼굴을 촬영하여 데이터를 수집한다.
@@ -26,7 +26,10 @@ pi@raspberrypi:~ $ python3 face_detection
    pi@raspberrypi:~ $ cd ..
    pi@raspberrypi:~ $ vi face_dataset.py
    ```
-   
-
-
+   1. esc키를 누른후 :34 입력 후 enter (34번째 줄로 이동)
+   1. i키를 누른후 우측으로 이동 count >= 10 에서 10을 원하는 장수로 변경
+   1. esc키를 누른후 :wq 입력 후 enter (저장 후 종료)
+```bash
+pi@raspberrypi:~ $ python3 face_dataset.py
+```
 
