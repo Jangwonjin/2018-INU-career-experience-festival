@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-faceCascade = cv2.CascadeClassifier('1.xml')
+faceCascade = cv2.CascadeClassifier('front_default.xml')
 cap = cv2.VideoCapture(0)
 cap.set(3,640) # set Width
 cap.set(4,480) # set Height
