@@ -38,9 +38,10 @@ pi@raspberrypi:~/INUfestival $ python3 face_detection.py
     1. i키를 누른 후 우측으로 이동 count >= 10 에서 10을 원하는 장수로 변경
     1. esc키를 누른 후 :wq 입력 후 enter (저장 후 종료)<br>
 
-* **파일 실행**
-파일을 실행하면 enter user id... 라는 문구가 생성된다. 이때 1을 입력한다.
-(다른 새로운 사용자 등록을 원할시 2,3,4.... 순으로 생성한다.)
+* **파일 실행**<br>
+    * 파일 실행 시 enter user id... 라는 문구가 출력된다. 1을 입력후 엔터
+    (이 후 새로운 사용자 등록시 2,3,4 순으로 등록)
+    (해당 id에 일치하는 INUfestival/dataset/User\* 폴더 생성 후 파일 실행)
 ```bash
 pi@raspberrypi:~ $ python3 face_dataset.py
 ```
