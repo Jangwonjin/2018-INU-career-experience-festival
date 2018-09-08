@@ -25,7 +25,7 @@ pi@raspberrypi:~/INUfestival $ python3 face_detection.py
     pi@raspberrypi:~/INUfestival $ cd dataset
     pi@raspberrypi:~/INUfestival/dataset $ mkdir User*
     ```
-    * 폴더 삭제
+    * 폴더 삭제(사용자 제거)
     ```bash
     pi@raspberrypi:~ $ rm -rf 폴더명
     ```
@@ -63,7 +63,7 @@ pi@raspberrypi:~/INUfestival $ python3 face_train.py
 pi@raspberrypi:~/INUfestival $ vi face_recognizer.py
 ```
     1. esc키를 누른 후 :16 입력 후 enter(16번째 줄로 이동)
-    2. i키를 누른 후 우측으로 이동 ['None','zoonyoung'] 란에 ['None','사용자1','사용자2',...] 
+    2. i키를 누른 후 우측으로 이동 ['None','zoonyoung']를 ['None','사용자1','사용자2',...]로 수정한다. 
 파일실행
 ```bash
 pi@raspberrypi:~/INUfestival $ python3 face_recognizer.py
