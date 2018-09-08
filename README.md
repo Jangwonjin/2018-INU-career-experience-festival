@@ -40,7 +40,7 @@ pi@raspberrypi:~/INUfestival $ python3 face_detection.py
 
 * **파일 실행**<br>
     * 파일 실행 시 enter user id... 라는 문구가 출력된다. 1을 입력후 엔터
-    (이 후 새로운 사용자 등록시 2,3,4 순으로 등록)
+    (이 후 새로운 사용자 등록시 2,3,4 순으로 등록)<br>
     (해당 id에 일치하는 INUfestival/dataset/User\* 폴더 생성 후 파일 실행)
 ```bash
 pi@raspberrypi:~ $ python3 face_dataset.py
