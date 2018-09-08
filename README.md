@@ -33,9 +33,9 @@ pi@raspberrypi:~/INUfestival $ python3 face_detection.py
     ```bash
     pi@raspberrypi:~/INUfestival $ vi face_dataset.py
     ```
-    1. esc키를 누른후 :34 입력 후 enter (34번째 줄로 이동)
-    1. i키를 누른후 우측으로 이동 count >= 10 에서 10을 원하는 장수로 변경
-    1. esc키를 누른후 :wq 입력 후 enter (저장 후 종료)<br>
+    1. esc키를 누른 후 :34 입력 후 enter (34번째 줄로 이동)
+    1. i키를 누른 후 우측으로 이동 count >= 10 에서 10을 원하는 장수로 변경
+    1. esc키를 누른 후 :wq 입력 후 enter (저장 후 종료)<br>
 
 * **파일 실행**
 파일을 실행하면 enter user id... 라는 문구가 생성된다. 이때 1을 입력한다.
@@ -52,7 +52,11 @@ pi@raspberrypi:~/INUfestival/dataset/User* $ ls
 이 후 파일 탐색기를 이용하여 해당 해당 경로로 이동하여 데이터를 확인한다.
 
 4. **사용자의 얼굴 학습**
-사용자의 데이터 확인이 끝난후 해당 파일 실행
+학습파일 저장을 위한 폴더 생성
+```bash
+pi@raspberrypi:~/INUfestival $ mkdir trainer
+```
+파일을 실행하여 학습 진행
 ```bash
 pi@raspberrypi:~/INUfestival $ python3 face_train.py
 ```
