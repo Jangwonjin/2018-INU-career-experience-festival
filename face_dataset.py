@@ -31,7 +31,7 @@ while(True):
         print('%d is captured' % count)
 # Save the captured image into the datasets folder
         cv2.imwrite("dataset/User{}/User.".format(face_id) + str(face_id) + '.' + str(int(100000*time.time())) + ".jpg", gray[y:y+h,x:x+w])
-    if count >= 30: # Take 30 face sample and stop video
+    if count >= 10: # Take 30 face sample and stop video
         break
 
 # Do a bit of cleanup
