@@ -22,7 +22,7 @@ def getImagesAndLabels(path):
     return faceSamples,ids
 for path in folders:
     recognizer = cv2.face.LBPHFaceRecognizer_create()
-    detector = cv2.CascadeClassifier("1.xml");
+    detector = cv2.CascadeClassifier("front_default.xml");
     print ("\n [INFO] Training faces. It will take a few seconds. Wait ...")
     faces,ids = getImagesAndLabels(path)
     recognizer.train(faces, np.array(ids))
