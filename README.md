@@ -20,22 +20,21 @@ pi@raspberrypi:~ $ cd INUfestival
 pi@raspberrypi:~ $ python3 face_detection.py
 ```
 3. **사용자의 얼굴 데이터 수집**<br>
-1.
-* 폴더 생성(User1,User2,User3 ...)
-```bash
-pi@raspberrypi:~ $ cd dataset
-pi@raspberrypi:~ $ mkdir User*
-```
-* (필요시)저장할 사진의 갯수 설정
-```bash
-pi@raspberrypi:~ $ cd ..
-pi@raspberrypi:~ $ vi face_dataset.py
-```
-1. esc키를 누른후 :34 입력 후 enter (34번째 줄로 이동)
-1. i키를 누른후 우측으로 이동 count >= 10 에서 10을 원하는 장수로 변경
-1. esc키를 누른후 :wq 입력 후 enter (저장 후 종료)<br>
+   * 폴더 생성(User1,User2,User3 ...)
+   ```bash
+    pi@raspberrypi:~ $ cd dataset
+    pi@raspberrypi:~ $ mkdir User*
+    ```
+    * (필요시)저장할 사진의 갯수 설정
+    ```bash
+    pi@raspberrypi:~ $ cd ..
+    pi@raspberrypi:~ $ vi face_dataset.py
+    ```
+    1. esc키를 누른후 :34 입력 후 enter (34번째 줄로 이동)
+    1. i키를 누른후 우측으로 이동 count >= 10 에서 10을 원하는 장수로 변경
+    1. esc키를 누른후 :wq 입력 후 enter (저장 후 종료)<br>
 
-2.파일 실행
+* **파일 실행**
 ```bash
 pi@raspberrypi:~ $ python3 face_dataset.py
 ```
