@@ -8,18 +8,25 @@
 1. 사용자의 얼굴 학습
 1. 사용자의 얼굴 인식 확인
 ### 실습
-1. 얼굴 인식<br>
+1. **얼굴 인식**<br>
    실시간으로 촬영중인 영상속에서 얼굴을 인식한다.
 ```bash
 pi@raspberrypi:~ $ cd INUfestival
 pi@raspberrypi:~ $ python3 face_detection
 ```
-1. 사용자의 얼굴 데이터 수집<br>
+2. **사용자의 얼굴 데이터 수집**<br>
    사용자의 얼굴을 촬영하여 데이터를 수집한다.
-   1. 폴더 생성(User1,User2,User3 ...)
+   * 폴더 생성(User1,User2,User3 ...)
    ```bash
    pi@raspberrypi:~ $ cd dataset
    pi@raspberrypi:~ $ mkdir User*
    ```
+   * (필요시)저장할 사진의 갯수 설정
+   ```bash
+   pi@raspberrypi:~ $ cd ..
+   pi@raspberrypi:~ $ vi face_dataset.py
+   ```
+   
+
 
 
